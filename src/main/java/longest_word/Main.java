@@ -8,15 +8,15 @@ class Main {
         // code goes here
         String[] preSolved = sen.split("[^\\w]");
         String solved = "";
-        for(String elem : preSolved){
-            if(elem.length() > solved.length()){
+        for (String elem : preSolved) {
+            if (elem.length() > solved.length()) {
                 solved = elem;
             }
         }
         return solved;
     }
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         // keep this function call here
         Scanner s = new Scanner(System.in);
         System.out.print(LongestWord(s.nextLine()));
