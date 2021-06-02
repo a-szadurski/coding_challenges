@@ -1,7 +1,5 @@
 package question_marks;
 
-import java.util.Scanner;
-
 class Main {
     public static String QuestionsMarks(String str) {
 
@@ -14,12 +12,10 @@ class Main {
 
             if (sum == 0 && Character.isDigit(elem)) {
                 sum += Character.getNumericValue(elem);
-            }
-
-            else if (Character.isDigit(elem)) {
+            } else if (Character.isDigit(elem)) {
                 sum += Character.getNumericValue(elem);
                 if (sum == 10) {
-                    if(qMarks != 3) {
+                    if (qMarks != 3) {
                         return "false";
                     }
                     truthCount++;
@@ -32,13 +28,13 @@ class Main {
             }
         }
 
-        if(truthCount > 0) {
+        if (truthCount > 0) {
             return "true";
         }
         return "false";
     }
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         // keep this function call here
         System.out.println(QuestionsMarks("5??aaaaaaaaaaaaaaaaaaa?5?a??5"));
 //        Scanner s = new Scanner(System.in);
