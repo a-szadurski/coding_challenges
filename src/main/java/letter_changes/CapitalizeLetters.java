@@ -1,6 +1,6 @@
-package letter_capitalize;
+package letter_changes;
 
-public class Main {
+public class CapitalizeLetters {
 
     public static String LetterCapitalize(String str) {
         // code goes here

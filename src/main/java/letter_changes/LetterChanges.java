@@ -1,6 +1,6 @@
 package letter_changes;
 
-class Main {
+class LetterChanges {
 
     public static String LetterChanges(String str) {
         // code goes here
