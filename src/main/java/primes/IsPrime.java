@@ -1,6 +1,6 @@
-package prime_time;
+package primes;
 
-public class Main {
+public class IsPrime {
     public static String PrimeTime(int num) {
         // code goes here
         if (num <= 2) {
