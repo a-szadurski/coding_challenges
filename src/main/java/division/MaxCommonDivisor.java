@@ -1,4 +1,4 @@
-package Division;
+package division;
 
 import java.util.Arrays;
 
