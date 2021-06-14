@@ -21,9 +21,6 @@ public class Main {
         for (int elem : partial) {
             sum += elem;
         }
-        if (match) {
-            return true;
-        }
         if (sum == max) {
             return true;
         }
@@ -41,6 +38,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(ArrayAddition(new int[]{0, 6, -1, 8, 12}));
+        System.out.println(ArrayAddition(new int[]{0, 4, -1, 8, 12}));
     }
 }
