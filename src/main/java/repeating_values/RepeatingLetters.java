@@ -1,10 +1,10 @@
-package repeating_letters;
+package repeating_values;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
-class Main {
+class RepeatingLetters {
 
     public static String LetterCount(String str) {
         // code goes here
